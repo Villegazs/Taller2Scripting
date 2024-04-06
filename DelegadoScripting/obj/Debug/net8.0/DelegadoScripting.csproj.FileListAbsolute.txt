@@ -1,0 +1,14 @@
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\bin\Debug\net8.0\DelegadoScripting.exe
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\bin\Debug\net8.0\DelegadoScripting.deps.json
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\bin\Debug\net8.0\DelegadoScripting.runtimeconfig.json
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\bin\Debug\net8.0\DelegadoScripting.dll
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\bin\Debug\net8.0\DelegadoScripting.pdb
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\obj\Debug\net8.0\DelegadoScripting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\obj\Debug\net8.0\DelegadoScripting.AssemblyInfoInputs.cache
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\obj\Debug\net8.0\DelegadoScripting.AssemblyInfo.cs
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\obj\Debug\net8.0\DelegadoScripting.csproj.CoreCompileInputs.cache
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\obj\Debug\net8.0\DelegadoScripting.dll
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\obj\Debug\net8.0\refint\DelegadoScripting.dll
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\obj\Debug\net8.0\DelegadoScripting.pdb
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\obj\Debug\net8.0\DelegadoScripting.genruntimeconfig.cache
+C:\Users\Acer Nitro\source\repos\DelegadoScripting\obj\Debug\net8.0\ref\DelegadoScripting.dll
