@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DelegadoScripting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f6ed3ab034d1c93e4959fe36b31fd5d7c14ead7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DelegadoScripting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DelegadoScripting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
