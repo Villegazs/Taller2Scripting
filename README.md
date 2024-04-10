@@ -1,5 +1,10 @@
 # Taller #2 Scripting
 
+
+## Link de la presentación
+
+https://www.canva.com/design/DAGB-3HUoQM/k_u-osnr_MLoFGj7MPcZTg/edit?utm_content=DAGB-3HUoQM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ### 2. Explicar por medio de un ejemplo de mínimo 5 funciones el concepto de delegado
 
 ~~~
