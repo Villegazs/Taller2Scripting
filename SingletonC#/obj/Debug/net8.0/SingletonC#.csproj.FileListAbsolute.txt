@@ -1,0 +1,15 @@
+D:\Scripting\Taller2Scripting\SingletonC#\bin\Debug\net8.0\SingletonC#.exe
+D:\Scripting\Taller2Scripting\SingletonC#\bin\Debug\net8.0\SingletonC#.deps.json
+D:\Scripting\Taller2Scripting\SingletonC#\bin\Debug\net8.0\SingletonC#.runtimeconfig.json
+D:\Scripting\Taller2Scripting\SingletonC#\bin\Debug\net8.0\SingletonC#.dll
+D:\Scripting\Taller2Scripting\SingletonC#\bin\Debug\net8.0\SingletonC#.pdb
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\SingletonC#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\SingletonC#.AssemblyInfoInputs.cache
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\SingletonC#.AssemblyInfo.cs
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\SingletonC#.csproj.CoreCompileInputs.cache
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\SingletonC#.sourcelink.json
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\SingletonC#.dll
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\refint\SingletonC#.dll
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\SingletonC#.pdb
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\SingletonC#.genruntimeconfig.cache
+D:\Scripting\Taller2Scripting\SingletonC#\obj\Debug\net8.0\ref\SingletonC#.dll
