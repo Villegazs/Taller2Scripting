@@ -1,0 +1,15 @@
+D:\Scripting\Taller2Scripting\EventHandler\bin\Debug\net8.0\EventHandler.exe
+D:\Scripting\Taller2Scripting\EventHandler\bin\Debug\net8.0\EventHandler.deps.json
+D:\Scripting\Taller2Scripting\EventHandler\bin\Debug\net8.0\EventHandler.runtimeconfig.json
+D:\Scripting\Taller2Scripting\EventHandler\bin\Debug\net8.0\EventHandler.dll
+D:\Scripting\Taller2Scripting\EventHandler\bin\Debug\net8.0\EventHandler.pdb
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\EventHandler.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\EventHandler.AssemblyInfoInputs.cache
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\EventHandler.AssemblyInfo.cs
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\EventHandler.csproj.CoreCompileInputs.cache
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\EventHandler.sourcelink.json
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\EventHandler.dll
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\refint\EventHandler.dll
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\EventHandler.pdb
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\EventHandler.genruntimeconfig.cache
+D:\Scripting\Taller2Scripting\EventHandler\obj\Debug\net8.0\ref\EventHandler.dll
