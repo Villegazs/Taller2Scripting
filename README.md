@@ -78,6 +78,8 @@ Diferentes clientes están intentando obtener la instancia singleton. Una vez qu
 - El objeto singleton se inicializa sólo cuando se solicita por primera vez.
 
 #### Contras:
-- 
+- Transmitir el estado entre las pruebas **puede dar lugar a pruebas que no sean independientes**, lo que dificulta aislar los problemas.
+- Puede **generar dependencias ocultas entre clases**, lo que hace que el sistema sea más complejo y menos predecible.
+- **Pueden limitar la escalabilidad y la flexibilidad.** A menudo se convierten en cuellos de botella a medida que la aplicación crece
 ### 5. Investigar y explicar un patrón de POO y un principio
 ### 6. Consultar y explicar el ciclo de vida de un script en Unity
