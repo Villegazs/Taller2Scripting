@@ -1,0 +1,15 @@
+D:\Scripting\Taller2Scripting\Observer.Structural\bin\Debug\net8.0\Observer.Structural.exe
+D:\Scripting\Taller2Scripting\Observer.Structural\bin\Debug\net8.0\Observer.Structural.deps.json
+D:\Scripting\Taller2Scripting\Observer.Structural\bin\Debug\net8.0\Observer.Structural.runtimeconfig.json
+D:\Scripting\Taller2Scripting\Observer.Structural\bin\Debug\net8.0\Observer.Structural.dll
+D:\Scripting\Taller2Scripting\Observer.Structural\bin\Debug\net8.0\Observer.Structural.pdb
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\Observer.Structural.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\Observer.Structural.AssemblyInfoInputs.cache
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\Observer.Structural.AssemblyInfo.cs
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\Observer.Structural.csproj.CoreCompileInputs.cache
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\Observer.Structural.sourcelink.json
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\Observer.Structural.dll
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\refint\Observer.Structural.dll
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\Observer.Structural.pdb
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\Observer.Structural.genruntimeconfig.cache
+D:\Scripting\Taller2Scripting\Observer.Structural\obj\Debug\net8.0\ref\Observer.Structural.dll
