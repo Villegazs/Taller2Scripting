@@ -88,3 +88,14 @@ Diferentes clientes están intentando obtener la instancia singleton. Una vez qu
 - **Pueden limitar la escalabilidad y la flexibilidad.** A menudo se convierten en cuellos de botella a medida que la aplicación crece
 ### 5. Investigar y explicar un patrón de POO y un principio
 ### 6. Consultar y explicar el ciclo de vida de un script en Unity
+
+<b>Awake>OnEnable>Start>Update</b>
+
+El ciclo de vida de un script en unity comienza por la inicialización del script que llama los métodos Awake(o start) y OnEnable, en el primero buscas inicializar objetos, asignar valores, inicializar componentes. Con OnEnable buscamos las conexiones con otros objetos.
+
+A continuación toma lugar la ejecución de las físicas, pues se tras inicializar, que ocurre solo una vez por código, se ingresa en un loop llamado FixedUpdate
+
+![alt text](image.png)
+
+este ciclo puede ocurrir más de una vez por frame si no se limitan los tics del computador
+
