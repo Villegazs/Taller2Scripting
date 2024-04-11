@@ -210,4 +210,24 @@ double AreaCirculo(double radio)
     return Math.PI * Math.Pow(radio, 2);
 }
 
+//triangulo con B y h
 
+double AreaTriangulo(double baseTriangulo, double altura)
+{
+    return (baseTriangulo * altura) / 2;
+}
+
+
+//rectángulo con B y h
+
+double AreaRectangulo(double baseRectangulo, double altura)
+{
+    return (baseRectangulo * altura);
+}
+
+//perimetro de un triangulo con 3 lados
+
+double PerimetroTriangulo(double lado1, double lado2, double lado3)
+{
+    return lado1 + lado2 + lado3;
+}
