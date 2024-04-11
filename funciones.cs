@@ -139,5 +139,43 @@ int NumeroAleatorioEnRango(int min, int max)
     return rnd.Next(min, max + 1);
 }
 
-//
+//valor absoluto de un decimal
+
+double ValorAbsoluto(double num)
+{
+    return Math.Abs(num);
+}
+
+//raiz cuadrada
+
+double RaizCuadrada(double num)
+{
+    return Math.Sqrt(num);
+}
+
+//logaritmo natural
+
+double LogaritmoNatural(double num)
+{
+    return Math.Log(num);
+}
+
+//log base 10 double LogaritmoBase10(double num)
+{
+    return Math.Log10(num);
+}
+
+//MCD
+
+int MCD(int a, int b)
+{
+    while (b != 0)
+    {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+
 
