@@ -178,4 +178,36 @@ int MCD(int a, int b)
     return a;
 }
 
+//MCM
+
+int MCM(int a, int b)
+{
+    return (a * b) / MCD(a, b);
+}
+
+//verificar si es primo
+
+bool EsPrimo(int num)
+{
+    if (num <= 1)
+        return false;
+    if (num == 2)
+        return true;
+    if (num % 2 == 0)
+        return false;
+    for (int i = 3; i * i <= num; i += 2)
+    {
+        if (num % i == 0)
+            return false;
+    }
+    return true;
+}
+
+//area de un circulo con r radio
+
+double AreaCirculo(double radio)
+{
+    return Math.PI * Math.Pow(radio, 2);
+}
+
 
