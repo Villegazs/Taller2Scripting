@@ -7,7 +7,7 @@ https://www.canva.com/design/DAGB-3HUoQM/k_u-osnr_MLoFGj7MPcZTg/edit?utm_content
 
 ### 2. Explicar por medio de un ejemplo de mínimo 5 funciones el concepto de delegado
 ---
-
+Un delegado de C# es un objeto que representa un método. El delegado de C# le permite tratar un método como un valor, asignando el método a una variable, pasándolo a otros métodos como parámetros, agregándolo a una colección, etc.
 ~~~
 namespace DelegadoScripting
 {

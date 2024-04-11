@@ -1,47 +1,46 @@
 ﻿namespace EventHandler
 {
+
     public class Order
     {
         public string Item { get; set; }
         public string Ingredients { get; set; }
     }
-
-    public class FoodPreparedEventArgs : EventArgs
-    {
-        public Order Order { get; set; }
-    }
-
     public class FoodOrderingService
     {
-        public event EventHandler<FoodPreparedEventArgs> FoodPrepared;
+        public delegate void FoodPreparedEventHandler(object source, EventArgs args);
+        public event FoodPreparedEventHandler FoodPrepared;
 
         public void PrepareOrder(Order order)
         {
             Console.WriteLine($"Preparing your order '{order.Item}', please wait...");
             Thread.Sleep(4000);
 
-            OnFoodPrepared(order);
+            OnFoodPrepared();
         }
 
-        protected virtual void OnFoodPrepared(Order order)
+        protected virtual void OnFoodPrepared()
         {
-            FoodPrepared?.Invoke(this, new FoodPreparedEventArgs { Order = order });
+            if (FoodPrepared != null)
+                FoodPrepared(this, null);
         }
     }
+
     public class AppService
     {
-        public void OnFoodPrepared(object source, FoodPreparedEventArgs eventArgs)
+        public void OnFoodPrepared(object source, EventArgs eventArgs)
         {
-            Console.WriteLine($"AppService: your food '{eventArgs.Order.Item}' is prepared.");
+            Console.WriteLine("AppService: your food is prepared.");
         }
     }
     public class MailService
     {
-        public void OnFoodPrepared(object source, FoodPreparedEventArgs eventArgs)
+        public void OnFoodPrepared(object source, EventArgs eventArgs)
         {
-            Console.WriteLine($"MailService: your food '{eventArgs.Order.Item}' is prepared.");
+            Console.WriteLine("MailService: your food is prepared.");
         }
     }
+
     class Program
     {
         static void Main(string[] args)
@@ -57,12 +56,8 @@
 
             orderingService.PrepareOrder(order);
 
-            orderingService.FoodPrepared -= appService.OnFoodPrepared;
-            orderingService.FoodPrepared -= mailService.OnFoodPrepared;
-
-            orderingService.PrepareOrder(order);
-
             Console.ReadKey();
         }
     }
+
 }
