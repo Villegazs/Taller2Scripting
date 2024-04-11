@@ -116,3 +116,28 @@ double GradosARadianes(double grados)
     return grados * Math.PI / 180.0;
 }
 
+//rad a grados
+
+double RadianesAGrados(double radianes)
+{
+    return radianes * 180.0 / Math.PI;
+}
+
+//generar un numero aleatorio entre 1 y 0 
+
+double NumeroAleatorio()
+{
+    Random rnd = new Random();
+    return rnd.NextDouble();
+}
+
+//generar un numero dentro de un rango específico
+
+int NumeroAleatorioEnRango(int min, int max)
+{
+    Random rnd = new Random();
+    return rnd.Next(min, max + 1);
+}
+
+//
+
