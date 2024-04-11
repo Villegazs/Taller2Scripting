@@ -124,11 +124,47 @@ El patrón de diseño Observer permite observar los cambios producidos por un ob
 
 <b>Awake>OnEnable>Start>Update</b>
 
-El ciclo de vida de un script en unity comienza por la inicialización del script que llama los métodos Awake(o start) y OnEnable, en el primero buscas inicializar objetos, asignar valores, inicializar componentes. Con OnEnable buscamos las conexiones con otros objetos.
+El ciclo de vida de un script en unity comienza por la carga de la escena que consiste:
 
-A continuación toma lugar la ejecución de las físicas, pues se tras inicializar, que ocurre solo una vez por código, se ingresa en un loop llamado FixedUpdate
+<b>Awake</b>: Esta función siempre se llama antes de cualquier función Start y también justo después de que un prefab es instanciado. (Si un GameObject está inactivo durante el comienzo, Awake no es llamado hasta que se vuelva activo)
 
-![alt text](image.png)
+<b>OnEnable</b>: (solamente es llamado si el Objeto está activo): Esta función es llamada justo después de que el objeto es activado. Esto sucede cuando una instancia de MonoBehaviour es creada, tal como cuando un nivel es cargado o un GameObject con un componente script es instanciado.
 
-este ciclo puede ocurrir más de una vez por frame si no se limitan los tics del computador
+<b>OnLevelWasLoaded</b>: Esta función es ejecutada para informarle al juego que un nuevo nivel ha sido cargado.
+
+Tenga en cuenta que para todos los objetos agregados a la escena, las funciones Awake y OnEnable para todos los scripts serán llamados antes de que Start, Update, etc sean llamados en cualquiera de ellos. Naturalmente, esto no se puede lograr cuando un objeto es instanciado durante el gameplay.
+
+# Antes de la actualización del primer frame
+
+Aqui se llama la función Start solo si la instancia del script está activada
+
+![alt text](image-1.png)
+
+
+Cuando usted hace seguimiento de la lógica de juego y las interacciones, animaciones, posiciones de cámara, etc., hay unos eventos diferentes que usted puede utilizar. El patrón común es realizar la mayoría de tareas dentro de la función Update , pero también hay otras funciones que usted puede utilizar.
+
+
+<b>FixedUpdate</b>: FixedUpdate a veces es más llamada que Update. Puede ser llamada varias veces por frame, si la velocidad de frame es baja y puede no ser llamada entre frames en absoluto si la velocidad de frame es alta. Todos los cálculos de física y actualizaciones ocurren inmediatamente después de FixedUpdate. Cuando aplique cálculos de movimiento dentro de FixedUpdate, usted no necesita multiplicar sus valores por Time.deltaTime. Esto se debe a que FixedUpdate en un temporizador fiable, independiente de la velocidad de frames.
+
+<b>Update</b>: Update se llama una vez por frame. Es la función principal para las actualizaciones de frames.
+
+<b>LateUpdate</b>: LateUpdate es llamada una vez por frame, después de que Update haya finalizado. Cualquier cálculo que sea realizado en Update será completado cuando LateUpdate comience. Un uso común para LateUpdate sería una cámara de tercera persona que sigue. Si usted hace que su personaje se mueva y gire, Update, usted puede realizar todos los cálculos de movimientos de cámara y rotación en LateUpdate. Esto asegurara que el personaje haya sido movido completamente antes de que la cámara haga un seguimiento a su posición.
+
+![alt text](image-2.png)
+
+
+A Continuación sigue el proceso de rendering y las corrutinas, estos procesos contienen las siguientes funciones:
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+
+Durante todo el ciclo hay unos procesos que ocurren condicionalmente
+
+![alt text](image-5.png)
+
+El resto del ciclo de vida de un script se ve así tras procesar las físicas:
+
+![alt text](image-6.png)
+
+
 
