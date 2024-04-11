@@ -74,3 +74,45 @@ int Minimo(int a, int b)
     return Math.Min(a, b);
 }
 
+//redondear un decimal hacia arriba
+
+double RedondearHaciaArriba(double num)
+{
+    return Math.Ceiling(num);
+}
+    
+//hacia abajo
+
+double RedondearHaciaAbajo(double num)
+{
+    return Math.Floor(num);
+}
+
+//seno de un ángulo en radianes
+
+double Seno(double angulo)
+{
+    return Math.Sin(angulo);
+}
+
+//coseno
+
+double Coseno(double angulo)
+{
+    return Math.Cos(angulo);
+}
+
+//tangente
+
+double Tangente(double angulo)
+{
+    return Math.Tan(angulo);
+}
+
+//convertir grados a radianes
+
+double GradosARadianes(double grados)
+{
+    return grados * Math.PI / 180.0;
+}
+
